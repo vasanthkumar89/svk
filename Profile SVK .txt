@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #747CB7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #747CB7;
+        }
+
+        .profile h1 {
+            font-size: 2em;
+            color: #747CB7;
+        }
+
+        .profile p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        .resume {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .resume a {
+            background-color: #72B9F2;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume a:hover {
+            background-color: #72B9F2;
+        }
+
+        footer {
+            background-color: #747CB7;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="profile">
+            <img src="SVK.jpg" alt="Profile Picture">
+            <h1>Dr.S.Vasanth Kumar</h1>
+            <p>Web Developer | Designer | Content Creator</p>
+        </section>
+
+        <section class="resume">
+            <h2>If you'd like to know more about my skills and experience, feel free to download my resume below.</h2>
+            <a href="resume.pdf" download>Download Resume</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dr.S.Vasanth Kumar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
